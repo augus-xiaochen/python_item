@@ -36,7 +36,7 @@
 
 ​	例如可以访问：www.taobao.com/robots.txt文件进行查看
 
-![image-20201205172523033](D:\GitHub\python_item\requests_item\note.assets\image-20201205172523033.png)
+![image-20201205172523033](note.assets\image-20201205172523033.png)
 
 
 
@@ -51,7 +51,7 @@
 
 ​		--Connection：请求完毕后，是断开连接还是保持连接
 
-![image-20201205173121203](D:\GitHub\python_item\requests_item\note.assets\image-20201205173121203.png)
+![image-20201205173121203](note.assets\image-20201205173121203.png)
 
 - 常用响应头信息
 
@@ -91,7 +91,7 @@
 
 ​	pip install requests
 
-![image-20201205173326011](D:\GitHub\python_item\requests_item\note.assets\image-20201205173326011.png)
+![image-20201205173326011](note.assets\image-20201205173326011.png)
 
 
 
@@ -101,7 +101,7 @@
 
 ​		--代码：[requests_01.py](https://github.com/augus-xiaochen/python_item/blob/main/requests_item/requests_01.py)
 
-![image-20201205175651308](D:\GitHub\python_item\requests_item\note.assets\image-20201205175651308.png)
+![image-20201205175651308](note.assets\image-20201205175651308.png)
 
 ### 第二节：requests模块巩固案例实践
 
@@ -111,10 +111,12 @@
 
 ​		--代码：[requests_02.py](https://github.com/augus-xiaochen/python_item/blob/main/requests_item/requests_02.py)
 
-![image-20201205175341256](D:\GitHub\python_item\requests_item\note.assets\image-20201205175341256.png)
+![image-20201205175341256.png](note.assets\image-20201205175341256.png)
 
 - 破解百度翻译
 - 爬取豆瓣电影分类排行榜 https://movie.douban.com/中的电影详细数据
 - 爬取肯德基餐厅查询http://www.kfc.com.cn/kfccda/index.aspx中指定地点餐厅数量
 - 爬取国家要付监督管理总局中基于中哈UR恩民共和国化妆品生产许可证相关数据
+
+
 
