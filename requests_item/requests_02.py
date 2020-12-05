@@ -10,6 +10,7 @@ UA伪装：让爬虫对应的请求载体身份标识伪装成浏览器
 """
 
 import requests
+import sys
 
 if __name__ == "__main__":
     # UA伪装：将对应的User-Agent封装到一个字典中
@@ -23,11 +24,14 @@ if __name__ == "__main__":
         'query': kw
     }
     # 对指定的url发起的请求对应的url是携带参数的
-    # 并且请求过程中处理了参数
+    # 并且请求过1程中处理了参数
     response = requests.get(url=url, params=param, headers=headers)
     page_test = response.text
-    file_name = "./requests_item/{}{}".format(kw, '.html')
-    with open(file_name, 'w', encoding='utf-8') as f:\
+    # 获取当前文件路径，并生成保存文件位置
+    save_path = sys.path[0]
+    file_name = "{}\{}{}".format(save_path, kw, '.html')
+    # 文件持久化，保存文件到本地目录
+    with open(file_name, 'w', encoding='utf-8') as f:
         f.write(page_test)
     print_result = "{} {}".format(file_name, 'save done！')
     print(print_result)
